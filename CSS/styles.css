@@ -399,12 +399,14 @@ h2 {
 .footerdetails {
   color: var(--Cloud);
   font-size: 14px;
+  margin-top: 16px;
 }
 
 .footerlabel {
   color: var(--Cloud);
   font-size: 16px;
 }
+
 /*Icons for footer and content 3 CSS*/
 
 .footer-icon {
@@ -465,6 +467,63 @@ div .team-icon {
     var(--lightslate) 0%,
     var(--Iris) 100%
   );
+}
+
+.footer-button {
+  display: inline-flex;
+  background: var(--Iris);
+  color: var(--Cornflower);
+  padding: 4px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  margin: 0 24px;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.icon-form {
+  fill: var(--Cornflower);
+}
+
+.footer-input {
+  padding: 4px 50px 4px 16px;
+  margin-top: 16px;
+  justify-content: center;
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.footer-input:active {
+  padding: 4px 50px 4px 16px;
+  margin-top: 16px;
+  justify-content: center;
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: var(--NAVY-BLUE, #2e2f42);
 }
 
 /*** PORTFOLIO PAGE STYLES ***/
