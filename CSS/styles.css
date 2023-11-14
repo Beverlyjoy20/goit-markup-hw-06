@@ -343,8 +343,69 @@ textarea {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.modal-sendbutton:active {
+  border: 1px solid currentColor;
+  background-color: var(--ocean);
+  color: var(--Cornflower);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-sendbutton:hover {
+  cursor: pointer;
+}
+
 .modal-container {
   margin: 8px 0px;
+}
+/*modal checkbox*/
+
+.service-agree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.agree-checkbox {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 18px;
+  opacity: 0;
+}
+
+.agree-check-icon {
+  fill: none;
+  margin-right: 8px;
+  border: 2px solid black;
+  border-radius: 2px;
+  transition: 250ms;
+  transition-property: color, border-color, background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-agree .agree-checkbox:focus + .agree-check-icon,
+.service-agree .agree-checkbox:checked:focus + .agree-check-icon {
+  outline: 2px solid #212121;
+}
+
+.service-agree .agree-checkbox:checked + .agree-check-icon {
+  background-color: var(--Iris);
+  border-color: var(--Iris);
+  fill: white;
+  outline: none;
+  stroke: white;
+  stroke-width: 0.2;
+  visibility: visible;
+}
+
+.agree-text {
+  color: var(--LIGHT-SLATE, #8e8f99);
+  /* Small Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 0.48px;
 }
 
 /*modal psuedoelements*/
@@ -400,11 +461,6 @@ textarea {
   transition: 250ms;
   transition-property: color, border-color, background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-checkbox input[type='checkbox']:checked {
-  background-color: var(--Iris);
-  color: var(--Cornflower);
 }
 
 /* Main CSS */
