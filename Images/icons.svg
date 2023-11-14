@@ -131,7 +131,7 @@
 </g>
 <defs>
 <clipPath id="clip0_297083_8311">
-  <rect  />
+  <rect width="32" height="22" />
 </clipPath>
 </defs>
 </symbol>
@@ -139,7 +139,7 @@
 <symbol id="icon-subscribe">
 <path d="M24 0L0 11.25L7.66994 13.6172L19.5 4.375L10.5017 14.4913L10.509 14.4936L10.5 14.4913V20L14.8013 15.8183L20.2501 17.5L24 0Z"/>
 </symbol>
-</defs>
+
 
 <symbol id="icon-menu" width="32" height="22" viewBox="0 0 32 22" fill="none">
   <g clip-path="url(#clip0_297053_2156)">
@@ -159,5 +159,5 @@
 <symbol id="checkbox" viewBox="0 0 24 24">
     <path d="M21 6.285l-11.16 12.733-6.84-6.018 1.319-1.49 5.341 4.686 9.865-11.196 1.475 1.285z"/>
     </symbol>
-  </defs>
+  
 </svg>
